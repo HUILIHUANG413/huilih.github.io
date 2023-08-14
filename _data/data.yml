@@ -3,262 +3,271 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Huili Huang
+    tagline: PhD Student
+    avatar: img2.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: hhuang413@gatech.edu
+    #phone: 470 455 2984
+    #timezone: America/Cancun Timezone
+    #citizenship:
+    #website: blog.webjeda.com #do not add http://
+    linkedin: huilihuanggt
+    #xing: alandoe
+    #github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    #twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Mandarin Chinese
           level: Native
 
-        - idiom: French
+        - idiom: Engilish
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        # - idiom: Spanish
+        #   level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Snowboarding
-          link:
+    #     - item: Snowboarding
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hello! I'm Huili Huang. I am a third-year PhD student of Computational Science and Engineering(CSE), 
+      I'm advised by [Dr. David Frost](https://ocean.gatech.edu/people/dr-david-frost) and [Dr. Max Mahdi Roozbahani](https://mahdi-roozbahani.github.io/).
+      My research taps into utilizing deep learning for the assessment 
+      of natural disaster damage with limited information. 
+      My academic trajectory began at the University of Electronic 
+      Science and Technology of China (UESTC) where I acquired my B.S. 
+      in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
+      earning an M.S. in Computer Science in 2021.
+      You can [download this free resume/CV template here](https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view?usp=drive_link).
+      
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Computational Science and Engineering
+        university: Georgia Institute of Technology
+        time: 2021 - 2025
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+      - degree: MSc in Computer Science
+        university: Georgia Institute of Technology
+        time: 2019 - 2021
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet poin
+      - degree: BSc in Software Engineering
+        university: University of Electronic Science and Technology of China
+        time: 2015 - 2019
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+
+
+experiences:
+    title: Research Experiences
+    info:
+      - role: Graduate Research Assistant
+        time: 2021 - Prsent
+        company: Georgia Tech 
+        details: |
+         Under the mentorship of Dr. Frost and Dr. Roozbahani, I'm part of the "Disaster Group" dedicated to analyzing natural catastrophes such as earthquakes, hurricanes, and wildfires. 
+         We employ a range of tools for data acquisition, encompassing satellites, UAVs, and imagery from social media platforms. 
+         My primary research areas include:
+            - Geospatial damage assessment based on self-supervised learning
+            - Disaster damage analysis based on multi-source data
+      - role: Graduate Research Assistant
+        time: 2020 - 2021
+        company: Georgia Tech 
+        details: |
+          Under the mentorship of Dr. Roozbahani, centered around the exploration and development of data augmentation algorithms harnessing the power of deep learning techniques.
+          A primary emphasis was placed on self-supervised learning methods.
+          A simple and efficient unsupervised representation learning method named ScaleNet based on multi-scale images is proposed to enhance the performance of ConvNets when limited information is available. 
+        
+      - role: Software Engineer (Research Intern)
+        time: 2019
+        company: China
+        details: |
+          The development of a fire-detection system, extracting critical flame features using dynamic detection. 
+          Implemented the system in C++, first achieving 93% accuracy with SVM, then enhancing it to 99% accuracy by integrating YOLOv3.
+
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur 
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh. 
+#             Aenean fermentum, felis vulputate suscipit accumsan, 
+#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#             Praesent venenatis erat non augue suscipit consectetur. 
             
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis, 
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at. 
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur 
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh. 
+#             Aenean fermentum, felis vulputate suscipit accumsan, 
+#             sem enim bibendum augue, sed convallis arcu lacus at dui. 
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+#             Praesent venenatis erat non augue suscipit consectetur. 
         
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Teaching Experiences
+    # intro: >
+     
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: CS7641/CS4641-A/CS4641-B Machine Learning
+        link: https://mahdi-roozbahani.github.io/CS46417641-summer2023
+        tagline: Head GTA, Summer 2023
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: CSE6242 Data and Visual Analytics(Online)
+        link: "https://poloclub.github.io/cse6242-2023spring-online/"
+        tagline: GTA, Spring2023
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: CSE6242 Data and Visual Analytics(Campus)
+        link: "https://poloclub.github.io/cse6242-2022fall-online/"
+        tagline: Head GTA, Fall2022
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: CSE6242 Data and Visual Analytics(Campus)
+        link: "https://poloclub.github.io/cse6242-2022spring-online/"
+        tagline: GTA, Spring2022
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: CS7641/CS4641-A/CS4641-B Machine Learning
+        link: https://mahdi-roozbahani.github.io/CS46417641-fall2021
+        tagline: GTA, Spring 2020 - Fall2021
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Awards
+    # intro: >
+    #   You can list your open source software contributions in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Excellent graduate of UESTC(2019)
+        # link: "#"
+        # tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: First-rank study scholarship(2018)
+        # link: "#"
+        # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Outstanding study scholarship(2017)
+        # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: China National Scholarship for College Student(2016)
+        # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "ScaleNet: An Unsupervised Representation Learning Method for Limited Information"
+        link: "https://dl.acm.org/doi/abs/10.1007/978-3-030-92659-5_11"
+        authors: Huili Huang M. Mahdi Roozbahani
+        conference: GCPR, 2021
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment (Under review)"
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
+        #conference: (Under review)
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      # - title: A syntax directed compiler for Algol 60
+      #   link: "#"
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"
+      
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Pytorch
+        level: 99%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Java, C++
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Javascript
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: HTML5 & CSS & D3
+        level: 90%
+
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Updated <i class="fas fa-heart"></i> on Aug. 2023 
