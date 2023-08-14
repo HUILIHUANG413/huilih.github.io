@@ -66,7 +66,28 @@ career-profile:
       in Software Engineering in 2019. I furthered my knowledge at Georgia Tech, 
       earning an M.S. in Computer Science in 2021.
       You can [view my free resume here](https://drive.google.com/file/d/1pU4BJECiU4GcK31vyYlFqD0vYbR69RRm/view?usp=drive_link).
-      
+
+publications:
+    title: Publications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    papers:
+      - title: "ScaleNet: An Unsupervised Representation Learning Method for Limited Information"
+        link: "https://dl.acm.org/doi/abs/10.1007/978-3-030-92659-5_11"
+        authors: Huili Huang M. Mahdi Roozbahani
+        conference: GCPR, 2021
+
+      - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment (Under review)"
+        link: "#"
+        authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
+        #conference: (Under review)
+
+      # - title: A syntax directed compiler for Algol 60
+      #   link: "#"
+      #   authors: Edgar T. Irons
+      #   conference: "Comm. ACM 4 (1961), 51–55"    
 education:
     title: Education
     info:
@@ -223,28 +244,6 @@ oss:
         # link: "#"
         # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-
-publications:
-    title: Publications
-    # intro: |
-    #   You can list your publications in this section. Lorem ipsum dolor sit
-    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    #   bibendum fringilla a eu lectus.
-    papers:
-      - title: "ScaleNet: An Unsupervised Representation Learning Method for Limited Information"
-        link: "https://dl.acm.org/doi/abs/10.1007/978-3-030-92659-5_11"
-        authors: Huili Huang M. Mahdi Roozbahani
-        conference: GCPR, 2021
-
-      - title: "Black Marble Nighttime Light Data for Disaster Damage Assessment (Under review)"
-        link: "#"
-        authors: Danrong Zhang, Huili Huang, Nimisha Roy, M. Mahdi Roozbahani, J. David Frost
-        #conference: (Under review)
-
-      # - title: A syntax directed compiler for Algol 60
-      #   link: "#"
-      #   authors: Edgar T. Irons
-      #   conference: "Comm. ACM 4 (1961), 51–55"
       
 
 skills:
